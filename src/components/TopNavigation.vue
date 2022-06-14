@@ -1,22 +1,11 @@
 <template>
-<!--  <div>-->
-<!--    <v-app-bar-->
-<!--        color="white"-->
-<!--        elevation="0"-->
-<!--    >-->
-<!--      <v-spacer></v-spacer>-->
-<!--      <v-toolbar-title>Mine</v-toolbar-title>-->
-<!--      <v-spacer></v-spacer>-->
-<!--      <a href="/login">登录</a>-->
-<!--    </v-app-bar>-->
-<!--  </div>-->
   <v-app :dark="setTheme">
     <v-app-bar
         app
         elevation="0">
       <v-btn
           icon
-          href="https://github.com/Marionette-yixuan/ThingManagement"
+          href="https://github.com/Florence-l/ThingManagement-ui"
           target="_blank"
           rel="noopener noreferrer"
       >
@@ -57,7 +46,6 @@
   </v-app>
 </template>
 <script>
-import colors from 'vuetify/lib/util/colors'
 export default {
   name:'TopNavigation',
   data: () => ({
@@ -74,10 +62,4 @@ export default {
   }
 }
 </script>
-<style scoped>
 
-.something {
-  color: #3f51b5;
-  background-color:#b0bec5;
-}
-</style>
